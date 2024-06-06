@@ -25,7 +25,7 @@ public class GradeService {
   public void updateGrade(Grade grade, int index) {
     gradeRepository.updateGrade(grade, index);
   }
-
+  
   public List<Grade> getGrades() {
     return gradeRepository.getGrades();
   }
